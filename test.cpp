@@ -16,7 +16,7 @@ void sobelFilter(const cv::Mat& src, cv::Mat& dst)
 
 TEST(Sobel, dummy)
 {
-  cv::Mat image(1024, 1024, CV_8UC1);
+  cv::Mat image(1024, 1024, CV_32FC1);
   cv::Mat edges;
 
   sobelFilter(image, edges);
