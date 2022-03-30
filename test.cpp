@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include <opencv2/core.hpp>
+#include <opencv2/core/core.hpp>
 
 static int clamp(int value, int min, int max)
 {
